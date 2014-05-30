@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+- (IBAction)returnActionForSegue:(UIStoryboardSegue *)returnSegue {
+    // do useful actions here.
+    //Nos puede servir para pasar parámetros
+}
+
 @end

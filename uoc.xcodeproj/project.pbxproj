@@ -21,6 +21,12 @@
 		B28808B318FDCCAC00F135F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B288089518FDCCAB00F135F8 /* UIKit.framework */; };
 		B28808BB18FDCCAC00F135F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B28808B918FDCCAC00F135F8 /* InfoPlist.strings */; };
 		B28808BD18FDCCAC00F135F8 /* uocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28808BC18FDCCAC00F135F8 /* uocTests.m */; };
+		B2B1F8D1190437F000E5A505 /* UOCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1F8D0190437F000E5A505 /* UOCWebViewController.m */; };
+		B2B1F8D41905BEB400E5A505 /* StudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1F8D31905BEB400E5A505 /* StudentsTableViewController.m */; };
+		B2B1F8DD1907144400E5A505 /* StudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1F8DC1907144400E5A505 /* StudentCell.m */; };
+		B2FC90251908642A008A934D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FC90241908642A008A934D /* MapKit.framework */; };
+		B2FC902819087291008A934D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC902719087291008A934D /* ContactViewController.m */; };
+		B2FC902A19099D60008A934D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FC902919099D60008A934D /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,16 @@
 		B28808B818FDCCAC00F135F8 /* uocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uocTests-Info.plist"; sourceTree = "<group>"; };
 		B28808BA18FDCCAC00F135F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B28808BC18FDCCAC00F135F8 /* uocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uocTests.m; sourceTree = "<group>"; };
+		B2B1F8CF190437F000E5A505 /* UOCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UOCWebViewController.h; sourceTree = "<group>"; };
+		B2B1F8D0190437F000E5A505 /* UOCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UOCWebViewController.m; sourceTree = "<group>"; };
+		B2B1F8D21905BEB400E5A505 /* StudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsTableViewController.h; sourceTree = "<group>"; };
+		B2B1F8D31905BEB400E5A505 /* StudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableViewController.m; sourceTree = "<group>"; };
+		B2B1F8DB1907144400E5A505 /* StudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentCell.h; sourceTree = "<group>"; };
+		B2B1F8DC1907144400E5A505 /* StudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCell.m; sourceTree = "<group>"; };
+		B2FC90241908642A008A934D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B2FC902619087291008A934D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		B2FC902719087291008A934D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		B2FC902919099D60008A934D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FC902A19099D60008A934D /* MessageUI.framework in Frameworks */,
+				B2FC90251908642A008A934D /* MapKit.framework in Frameworks */,
 				B288089418FDCCAB00F135F8 /* CoreGraphics.framework in Frameworks */,
 				B288089618FDCCAB00F135F8 /* UIKit.framework in Frameworks */,
 				B288089218FDCCAB00F135F8 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,8 @@
 		B288089018FDCCAB00F135F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2FC902919099D60008A934D /* MessageUI.framework */,
+				B2FC90241908642A008A934D /* MapKit.framework */,
 				B288089118FDCCAB00F135F8 /* Foundation.framework */,
 				B288089318FDCCAB00F135F8 /* CoreGraphics.framework */,
 				B288089518FDCCAB00F135F8 /* UIKit.framework */,
@@ -119,6 +139,14 @@
 				B28808A718FDCCAB00F135F8 /* ViewController.m */,
 				B28808A918FDCCAB00F135F8 /* Images.xcassets */,
 				B288089818FDCCAB00F135F8 /* Supporting Files */,
+				B2B1F8CF190437F000E5A505 /* UOCWebViewController.h */,
+				B2B1F8D0190437F000E5A505 /* UOCWebViewController.m */,
+				B2B1F8D21905BEB400E5A505 /* StudentsTableViewController.h */,
+				B2B1F8D31905BEB400E5A505 /* StudentsTableViewController.m */,
+				B2B1F8DB1907144400E5A505 /* StudentCell.h */,
+				B2B1F8DC1907144400E5A505 /* StudentCell.m */,
+				B2FC902619087291008A934D /* ContactViewController.h */,
+				B2FC902719087291008A934D /* ContactViewController.m */,
 			);
 			path = uoc;
 			sourceTree = "<group>";
@@ -249,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FC902819087291008A934D /* ContactViewController.m in Sources */,
 				B28808A818FDCCAB00F135F8 /* ViewController.m in Sources */,
+				B2B1F8DD1907144400E5A505 /* StudentCell.m in Sources */,
+				B2B1F8D1190437F000E5A505 /* UOCWebViewController.m in Sources */,
+				B2B1F8D41905BEB400E5A505 /* StudentsTableViewController.m in Sources */,
 				B28808A218FDCCAB00F135F8 /* AppDelegate.m in Sources */,
 				B288089E18FDCCAB00F135F8 /* main.m in Sources */,
 			);
@@ -456,6 +488,7 @@
 				B28808C218FDCCAC00F135F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B28808C318FDCCAC00F135F8 /* Build configuration list for PBXNativeTarget "uocTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				B28808C518FDCCAC00F135F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
